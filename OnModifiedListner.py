@@ -4,7 +4,7 @@ import datetime
 import time
 from watchdog.events import FileSystemEventHandler
 
-default_download_folder = '/home/roman/Загрузки'
+default_download_folder = #Set your default download folder
 
 class OnModifiedListner(FileSystemEventHandler):
         def on_modified(self, event):
